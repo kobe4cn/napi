@@ -1,5 +1,5 @@
 [workspace]
-members = ["algo", "napi-example"]
+members = ["algo", "napi-example", "python-binding"]
 resolver = "2"
 
 [workspace.dependencies]

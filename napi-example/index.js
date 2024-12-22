@@ -310,7 +310,8 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { JsAlgo, plus } = nativeBinding
+const { JsAlgo, Matrix, plus } = nativeBinding
 
 module.exports.JsAlgo = JsAlgo
+module.exports.Matrix = Matrix
 module.exports.plus = plus

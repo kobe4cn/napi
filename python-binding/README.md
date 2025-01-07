@@ -15,7 +15,10 @@ rye add --dev pip
 rye add --dev ipython
 
 运行
+编译生层 python binding
 maturin develop
+
+运行 ipython 代码
 rye run ipython
 ```
 

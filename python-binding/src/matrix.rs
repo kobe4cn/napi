@@ -41,6 +41,9 @@ impl PyMatrix {
     pub fn __repr__(&self) -> String {
         format!("{}", self)
     }
+    pub fn __str__(&self) -> String {
+        format!("{}", self)
+    }
 }
 
 impl fmt::Display for PyMatrix {
